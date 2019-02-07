@@ -1,0 +1,187 @@
+body {
+    background-color: #222;
+    margin: 0;
+    font-family:'Irish Grover', 'arial';
+    font-size: 10px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+hr {
+    width: 40%;
+}
+p {
+    color: white;
+    font-family: 'arial';
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+nav {
+        width: 100%;
+        height: 60px;
+        background-color: #222;
+        border-top: 2px solid rgb(7, 177, 177);
+        border-bottom: 2px solid rgb(7, 177, 177);
+        position: fixed;
+        top:0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding-top: 2px;
+        padding-right: 2px;
+        padding-bottom: 2px;
+        padding-left: 0;
+        overflow: hidden;
+}
+  
+nav a {
+    color: #a631e0;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 2vw;
+    float: left;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+   
+  }
+
+nav a:hover {
+    color: white;
+    
+
+}
+
+
+#logo {
+    color: #a631e0;
+    font-size: 1.5rem;
+    padding-left: 20px;
+    padding-right: 40px;
+    margin-right: 150px;
+    margin-top: -20px;
+    text-decoration: none;
+}
+
+#logo:hover {
+    color: white;
+}
+
+
+.date {
+    font-family: 'arial';
+    color:#a631e0;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    padding-left: 10px;    
+}
+
+.pedals {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid rgb(7, 177, 177);
+
+    
+}
+
+.home {
+    color: rgb(7, 177, 177);
+    text-decoration: none;
+}
+
+.stooges {
+    width: 25%;
+    height: 25%;
+    float: left;
+    padding-right: 20px;
+}
+
+.btn {
+    color: #a631e0;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 2px solid rgb(7, 177, 177);
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.btn:hover {
+    color: rgb(7, 177, 177);
+    border: 2px solid white;
+}
+
+.link {
+    margin-top: 20px;
+}
+
+
+
+.footer {
+    text-align: center;
+    margin: 20px ;
+    margin-bottom: 50px;
+    
+}
+
+.copyright {
+    font-size: .75rem;
+    margin-top: 75px;
+}
+
+.contact {
+    color: rgb(7, 177, 177);
+    text-decoration: none;
+}
+
+.page-container {
+    margin: 20px 100px;
+}
+
+@media only screen and (max-width: 750px) {
+    #logo {
+        color: #a631e0;
+        font-size: 1.5rem;
+        padding-left: 20px;
+        padding-right: 40px;
+        margin-right: 0px;
+        margin-top: -20px;
+        text-decoration: none;
+    }
+    
+    nav a {
+        color: #a631e0;
+        display: block;
+        padding: 8px;
+        text-decoration: none;
+        font-size: 3vw;
+        float: left;
+        padding-top: 20px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        margin-left: 0;
+       
+      }
+}
+
